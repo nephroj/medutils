@@ -8,7 +8,6 @@
 #' @keywords vec
 #' @export
 #' @examples vec(a, b, c)
-#' @import ggplot2
 #' @importFrom readxl read_excel
 #' @importFrom rlang :=
 #' @importFrom dplyr %>%
@@ -41,6 +40,22 @@
 #' @importFrom stringr str_to_lower
 #' @importFrom lubridate month
 #' @importFrom lubridate day
+#' @importFrom ggplot2 ggplot
+#' @importFrom ggplot2 aes
+#' @importFrom ggplot2 aes_string
+#' @importFrom ggplot2 geom_point
+#' @importFrom ggplot2 geom_line
+#' @importFrom ggplot2 geom_histogram
+#' @importFrom ggplot2 geom_errorbar
+#' @importFrom ggplot2 geom_bar
+#' @importFrom ggplot2 geom_hline
+#' @importFrom ggplot2 geom_vline
+#' @importFrom ggplot2 geom_segment
+#' @importFrom ggplot2 geom_step
+#' @importFrom ggplot2 geom_crossbar
+#' @importFrom ggplot2 geom_density
+#' @importFrom ggplot2 stat_smooth
+#' @importFrom ggplot2 theme_classic
 #' @importFrom cowplot theme_cowplot
 #' @importFrom cowplot plot_grid
 #' @importFrom ggbeeswarm geom_beeswarm

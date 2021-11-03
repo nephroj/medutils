@@ -21,7 +21,6 @@
 #' @return ggplot object
 #' @keywords plot_cor
 #' @export
-#' @import ggplot2
 #'
 plot_cor = function(data, x, y, xlab=x, ylab=y, r=T, p=T,
                    xpos=0.7, ypos=0.7, x2pos=xpos, y2pos=ypos-0.1, method='pearson',

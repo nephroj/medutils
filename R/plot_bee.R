@@ -18,7 +18,6 @@
 #' @return ggplot object
 #' @keywords plot_bee
 #' @export
-#' @import ggplot2
 #'
 plot_bee = function(data, x, y, bar.width=0.5, err.width=0.15,
                     xlab=x, ylab=y, xlabels=levels(data[[x]]), se=F, cex=2.5, dot=T,
