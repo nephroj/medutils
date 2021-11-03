@@ -15,7 +15,4 @@ data.frame object
 \description{
 Add asterisks for presenting significance
 }
-\examples{
-
-}
 \keyword{add_sig}

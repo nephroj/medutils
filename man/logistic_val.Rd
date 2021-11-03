@@ -44,7 +44,4 @@ data.frame object
 \description{
 Validation of logistic regression results with the combiation of variables
 }
-\examples{
-
-}
 \keyword{roc_comparison}

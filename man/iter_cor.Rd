@@ -26,8 +26,4 @@ Dataframe containing the result of correlation analyes
 This function perform multiple correlation analyses between a specific variable
 and various continuous variables
 }
-\examples{
-iter_cor(data=mtcars, varlist=c("cyl", "wt", "hp"), var="mpg", print.result=T, p.round=4)
-
-}
 \keyword{iter_cor}

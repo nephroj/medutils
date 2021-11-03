@@ -29,7 +29,4 @@ ggplot object
 \description{
 Draw multiple ROC plots
 }
-\examples{
-
-}
 \keyword{ggrocs}

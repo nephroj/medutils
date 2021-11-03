@@ -11,7 +11,6 @@
 #' @return data.frame
 #' @keywords logistic_uni
 #' @export
-#' @examples
 #'
 logistic_uni = function(data, outcome, varlist, round=3, print.result=T, p.cut=0.05) {
   cont_dt = data.frame()

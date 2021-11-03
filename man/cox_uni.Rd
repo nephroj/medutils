@@ -41,7 +41,4 @@ data.frame
 \description{
 Automation of univariable Cox PH analysis
 }
-\examples{
-
-}
 \keyword{cox_uni}

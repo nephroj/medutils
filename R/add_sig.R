@@ -6,7 +6,6 @@
 #' @return data.frame object
 #' @keywords add_sig
 #' @export
-#' @examples
 #'
 add_sig = function(data) {
   d2 = data %>%

@@ -25,7 +25,4 @@ data.frame
 \description{
 Automation of univariable logistic analysis
 }
-\examples{
-
-}
 \keyword{logistic_uni}

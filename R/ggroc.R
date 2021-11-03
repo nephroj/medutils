@@ -14,7 +14,6 @@
 #' @return ggplot object
 #' @keywords ggroc
 #' @export
-#' @examples
 #'
 ggroc <- function(roc, showAUC = TRUE, interval = 0.2, breaks = seq(0, 1, interval),
                   round=2, show.num=3, print.result=F, print.num=5, font.size=3.5){
@@ -73,7 +72,6 @@ ggroc <- function(roc, showAUC = TRUE, interval = 0.2, breaks = seq(0, 1, interv
 #' @return ggplot object
 #' @keywords ggrocs
 #' @export
-#' @examples
 #'
 ggrocs <- function(roclist, showAUC = TRUE, interval = 0.2, breaks = seq(0, 1, interval),
                    labels = NULL){

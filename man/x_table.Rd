@@ -10,14 +10,13 @@ x_table(data, outcome, predictor)
 \item{data}{a dataframe to be used}
 
 \item{outcome}{outcome variable}
+
+\item{predictor}{predictor variable}
 }
 \value{
 data.frame object
 }
 \description{
 x by x table (n & percent)
-}
-\examples{
-
 }
 \keyword{x_table}

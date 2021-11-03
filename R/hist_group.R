@@ -7,6 +7,7 @@
 #' @param group a grouping variable (factor)
 #' @param show.hist a logical indicating whether to show histogram
 #' @param show.density a logical indicating whether to show density plot
+#' @param show.mean a logical indicating whether to show mean values
 #' @param bins number of bins
 #' @param alpha transparency of density plot
 #' @return ggplot2 histogram

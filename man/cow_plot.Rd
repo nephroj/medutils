@@ -15,25 +15,24 @@ cow_plot(
 )
 }
 \arguments{
-\item{data}{a dataframe to be used}
+\item{n}{a number of plots}
 
-\item{outcome}{a outcome variable}
+\item{ncol}{a number of columns}
 
-\item{varlist}{predictors}
+\item{font_size}{font size}
 
-\item{round}{round value}
+\item{scale}{scale}
 
-\item{print.result}{print the name of significant vairables}
+\item{rel_widths}{relative width of columns}
 
-\item{p.cut}{P-value cut-off}
+\item{uppercase}{uppercase}
+
+\item{labels}{labels}
 }
 \value{
 cowplot obejct
 }
 \description{
 Creation of the cowplot object
-}
-\examples{
-
 }
 \keyword{cow_plot}

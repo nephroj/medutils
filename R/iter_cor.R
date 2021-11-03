@@ -12,7 +12,6 @@
 #' @return Dataframe containing the result of correlation analyes
 #' @keywords iter_cor
 #' @export
-#' @examples iter_cor(data=mtcars, varlist=c("cyl", "wt", "hp"), var="mpg", print.result=T, p.round=4)
 #'
 iter_cor = function(data, varlist, var, method = 'pearson', print.result = F, p.round=3){
   dt.wilc = data.frame()

@@ -12,7 +12,6 @@
 #' @return data.frame object
 #' @keywords logistic_adj
 #' @export
-#' @examples
 #'
 logistic_adj = function(data, outcome, predictor, vars_list, nsmall=2, digits=1, p.round=3){
   fit0 = glm(as.formula(paste(outcome, '~', predictor)),

@@ -13,7 +13,6 @@
 #' @return print output
 #' @keywords roc_comparison
 #' @export
-#' @examples
 #'
 data_summary = function(data, x, y, digits=2, nsmall=1, p.adj='bonferroni', method=2, print.option=c(1,2,3)){
   data[[x]] = factor(data[[x]])

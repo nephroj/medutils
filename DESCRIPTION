@@ -17,14 +17,18 @@ Depends:
 Imports:
     plyr,
     dplyr,
+    tidyr,
     tibble,
     stringr,
+    readxl,
     lubridate,
     ggplot2,
+    ggbeeswarm,
     lazyeval,
     rlang,
     pROC,
     cowplot,
+    caret,
     car,
     PMCMRplus,
     DescTools

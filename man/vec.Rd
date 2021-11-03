@@ -8,6 +8,8 @@ vec(vars, ...)
 }
 \arguments{
 \item{vars}{words to be a vector}
+
+\item{...}{...}
 }
 \value{
 vector
@@ -17,6 +19,5 @@ This function makes a vector from words list
 }
 \examples{
 vec(a, b, c)
-
 }
 \keyword{vec}

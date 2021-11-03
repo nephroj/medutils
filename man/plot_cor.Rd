@@ -30,6 +30,10 @@ plot_cor(
 
 \item{y}{a variable for y-axis}
 
+\item{xlab}{x-axis label}
+
+\item{ylab}{y-axis label}
+
 \item{r}{correlation coefficient}
 
 \item{p}{P-value}

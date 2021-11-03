@@ -5,6 +5,8 @@
 #' @param data a dataframe to be used
 #' @param x a variable for x-axis
 #' @param y a variable for y-axis
+#' @param xlab x-axis label
+#' @param ylab y-axis label
 #' @param r correlation coefficient
 #' @param p P-value
 #' @param xpos relative location of correlation coefficient
@@ -24,8 +26,6 @@
 plot_cor = function(data, x, y, xlab=x, ylab=y, r=T, p=T,
                    xpos=0.7, ypos=0.7, x2pos=xpos, y2pos=ypos-0.1, method='pearson',
                    round = 3, rsize = 4, low.limit=F, ci=T){
-  suppressWarnings(suppressMessages(library(ggplot2, quietly=T)))
-  suppressWarnings(suppressMessages(library(dplyr, quietly=T)))
   data = data[!is.na(data[[x]]),]
   data = data[!is.na(data[[y]]),]
 

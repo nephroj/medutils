@@ -10,6 +10,8 @@ fac(data, vars, ...)
 \item{data}{a dataframe to be used}
 
 \item{vars}{Variables to be transformed to factor}
+
+\item{...}{...}
 }
 \value{
 Converted dataframe

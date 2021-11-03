@@ -8,15 +8,10 @@ loadpacks(pkg, ...)
 }
 \arguments{
 \item{pkg}{R packages to be loaded}
-}
-\value{
 
+\item{...}{...}
 }
 \description{
 This function loads R packages easily.
-}
-\examples{
-loadpacks(plyr, tidyverse)
-
 }
 \keyword{loadpacks}

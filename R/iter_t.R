@@ -12,7 +12,6 @@
 #' @return Dataframe containing the result of t-tests
 #' @keywords iter_t
 #' @export
-#' @examples
 #'
 iter_t = function(data, varlist, var, method=1, maxgroup=5, p.round=3){
   dt.wilb = data.frame()

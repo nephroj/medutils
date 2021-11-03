@@ -26,7 +26,4 @@ Dataframe containing the result of t-tests
 This function perform Student's t-tests between a specific variable
 and various categorical variables
 }
-\examples{
-
-}
 \keyword{iter_t}

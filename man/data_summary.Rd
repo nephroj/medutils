@@ -38,7 +38,4 @@ print output
 \description{
 Print multiple comparison results
 }
-\examples{
-
-}
 \keyword{roc_comparison}

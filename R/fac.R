@@ -4,6 +4,7 @@
 #'
 #' @param data a dataframe to be used
 #' @param vars Variables to be transformed to factor
+#' @param ... ...
 #' @return Converted dataframe
 #' @keywords fac
 #' @export

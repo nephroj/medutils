@@ -10,7 +10,6 @@
 #' @return data.frame object
 #' @keywords cox_iter_cont
 #' @export
-#' @examples
 #'
 cox_iter_cont = function(data, outcome_list, main_predictor, adjusted_var=NULL, round=4) {
   outcome_result = data.frame()
@@ -58,7 +57,6 @@ cox_iter_cont = function(data, outcome_list, main_predictor, adjusted_var=NULL, 
 #' @return data.frame object
 #' @keywords cox_iter_cat
 #' @export
-#' @examples
 #'
 cox_iter_cat = function(data, outcome_list, main_predictor, adjusted_var=NULL, round=4){
   outcome_result = data.frame()

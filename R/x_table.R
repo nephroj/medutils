@@ -4,10 +4,10 @@
 #'
 #' @param data a dataframe to be used
 #' @param outcome outcome variable
+#' @param predictor predictor variable
 #' @return data.frame object
 #' @keywords x_table
 #' @export
-#' @examples
 #'
 x_table = function(data, outcome, predictor) {
   dt = data %>%

@@ -3,10 +3,9 @@
 #' This function loads R packages easily.
 #'
 #' @param pkg R packages to be loaded
-#' @return
+#' @param ... ...
 #' @keywords loadpacks
 #' @export
-#' @examples loadpacks(plyr, tidyverse)
 #'
 loadpacks = function(pkg, ...) {
   arg <- deparse(substitute(pkg))
@@ -16,7 +15,7 @@ loadpacks = function(pkg, ...) {
     if(!i %in% rownames(installed.packages())){
       install.packages(i)
     }
-    suppressWarnings(suppressMessages(library(i, character.only=T, quietly=T)))
+    suppressWarnings(suppressMessages(requireNamespace(i, character.only=T, quietly=T)))
   }
 }
 

@@ -14,7 +14,6 @@
 #' @return data.frame
 #' @keywords cox_uni
 #' @export
-#' @examples
 #'
 cox_uni = function(data, event, eventtime, vars, p.cut=0.05,
                    round=3, digits=1, nsmall=3,  print.result=F){

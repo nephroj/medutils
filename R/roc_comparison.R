@@ -8,7 +8,6 @@
 #' @return data.frame
 #' @keywords roc_comparison
 #' @export
-#' @examples
 #'
 roc_comparison = function(roc1, roc2, venkatraman=F){
   method = c('delong', 'bootstrap')

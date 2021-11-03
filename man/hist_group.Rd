@@ -26,6 +26,8 @@ hist_group(
 
 \item{show.density}{a logical indicating whether to show density plot}
 
+\item{show.mean}{a logical indicating whether to show mean values}
+
 \item{bins}{number of bins}
 
 \item{alpha}{transparency of density plot}

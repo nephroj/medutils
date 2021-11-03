@@ -35,7 +35,4 @@ data.frame object
 \description{
 Adjusted logistic regression results with various variable combination
 }
-\examples{
-
-}
 \keyword{logistic_adj}

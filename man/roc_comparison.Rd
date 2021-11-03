@@ -19,7 +19,4 @@ data.frame
 \description{
 Comparison of two ROC objects
 }
-\examples{
-
-}
 \keyword{roc_comparison}

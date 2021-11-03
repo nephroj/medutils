@@ -41,7 +41,4 @@ ggplot object
 \description{
 Draw ROC plot with cut-off values
 }
-\examples{
-
-}
 \keyword{ggroc}

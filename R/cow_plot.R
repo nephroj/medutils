@@ -2,16 +2,16 @@
 #'
 #' Creation of the cowplot object
 #'
-#' @param data a dataframe to be used
-#' @param outcome a outcome variable
-#' @param varlist predictors
-#' @param round round value
-#' @param print.result print the name of significant vairables
-#' @param p.cut P-value cut-off
+#' @param n a number of plots
+#' @param ncol a number of columns
+#' @param font_size font size
+#' @param scale scale
+#' @param rel_widths relative width of columns
+#' @param uppercase uppercase
+#' @param labels labels
 #' @return cowplot obejct
 #' @keywords cow_plot
 #' @export
-#' @examples
 #'
 cow_plot = function (n, ncol=n, font_size=10, scale=0.95, rel_widths=1, uppercase=T, labels=NULL) {
   text = paste0("g", 1:n)
