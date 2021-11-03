@@ -1,0 +1,10 @@
+.Rproj.user
+.Rhistory
+.Rbuildignore
+.RData
+
+temp
+output
+input
+exercise.*
+LICENSE.md

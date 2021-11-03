@@ -1,0 +1,31 @@
+Package: medutils
+Title: Utilities for Medical Statistics
+Version: 0.0.1
+Authors@R: 
+    person(given = "NJ",
+           family = "Cho",
+           role = c("aut", "cre"),
+           email = "coolnamz@naver.com")
+Description: For my convinience.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Depends: 
+    R (>= 2.10),
+Imports:
+    plyr,
+    dplyr,
+    tibble,
+    stringr,
+    lubridate,
+    ggplot2,
+    lazyeval,
+    rlang,
+    pROC,
+    cowplot,
+    car,
+    PMCMRplus,
+    DescTools
+  
