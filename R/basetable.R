@@ -237,9 +237,9 @@ basetable = function(data, varlist, grvar=NULL, len.max=5, y.correct=T, trend=F,
             test = 'no test'
           }
           else if(trend==TRUE){
-            fit = cuzickTest(data[[i]], data[[grvar]])
+            fit = JonckheereTerpstraTest(data[[i]], ordered(data[[grvar]]))
             p.value = fit$p.value
-            test = "cuzick"
+            test = "Jonckheere"
           }
           else if(length(unique(data[[grvar]])) == 2){
             vareq = leveneTest(as.formula(paste(i, '~', grvar)), data=data)
@@ -301,9 +301,9 @@ basetable = function(data, varlist, grvar=NULL, len.max=5, y.correct=T, trend=F,
             test = 'no test'
           }
           else if(trend==TRUE){
-            fit = cuzickTest(data[[i]], data[[grvar]])
+            fit =  JonckheereTerpstraTest(data[[i]], ordered(data[[grvar]]))
             p.value = fit$p.value
-            test = "cuzick"
+            test = "Jonckheere"
           }
           else if(min(table(data[[grvar]])) >50){
             if(length(unique(data[[grvar]])) == 2){

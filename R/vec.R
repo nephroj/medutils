@@ -67,7 +67,7 @@
 #' @importFrom caret train
 #' @importFrom caret trainControl
 #' @importFrom car leveneTest
-#' @importFrom PMCMRplus cuzickTest
+#' @importFrom DescTools JonckheereTerpstraTest
 #' @importFrom DescTools CochranArmitageTest
 #'
 vec = function(vars, ...){
