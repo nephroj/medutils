@@ -30,5 +30,4 @@ Imports:
     cowplot,
     caret,
     car,
-    PMCMRplus,
     DescTools
