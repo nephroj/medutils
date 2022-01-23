@@ -48,7 +48,7 @@ data_summary = function(data, x, y, digits=2, nsmall=1, p.adj='bonferroni', meth
       ad$p.value < 0.01  ~ paste0(ad$p.value, '**'),
       ad$p.value < 0.05  ~ paste0(ad$p.value, '*'),
       ad$p.value == 1    ~ '1.000',
-      TRUE               ~ ad$p.value
+      TRUE               ~ as.character(ad$p.value)
     )
   }
   if(method == 1){
@@ -76,7 +76,7 @@ data_summary = function(data, x, y, digits=2, nsmall=1, p.adj='bonferroni', meth
       ad$p.value < 0.01  ~ paste0(ad$p.value, '**'),
       ad$p.value < 0.05  ~ paste0(ad$p.value, '*'),
       ad$p.value == 1    ~ '1.000',
-      TRUE               ~ ad$p.value
+      TRUE               ~ as.character(ad$p.value)
     )
   }
   colnames(d2) = c(x,y)
