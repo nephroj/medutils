@@ -2,6 +2,7 @@
 
 export(add_sig)
 export(basetable)
+export(ckd_epi)
 export(cow_plot)
 export(cox_iter_cat)
 export(cox_iter_cont)
