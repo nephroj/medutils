@@ -10,6 +10,7 @@
 #' @export
 #'
 newid_gen = function(seed, prefix="", max_digit=7) {
+  set.seed(seed)
   max_no = 10^(max_digit)
   new_id = sample(1:max_no, max_no)
 
