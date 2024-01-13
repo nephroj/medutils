@@ -8,6 +8,8 @@ read_csvk(file, ...)
 }
 \arguments{
 \item{file}{CSV file}
+
+\item{...}{parameters of read_csv}
 }
 \value{
 data.frame object

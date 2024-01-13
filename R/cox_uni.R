@@ -21,11 +21,11 @@ cox_uni = function(data, event, eventtime, vars, p.cut=0.05,
   errorvar = c()
   sigvar = c()
   for(i in vars){
-    if((class(data[[i]])=='factor' | class(data[[i]])=='character') &
+    if((inherits(data[[i]], 'factor') | inherits(data[[i]], 'character')) &
        sum(table(data[[event]], data[[i]]) == 0) >1){
       errorvar = c(errorvar, i)
     }
-    else if((class(data[[i]])=='numeric' | class(data[[i]])=='integer') &
+    else if (inherits(data[[i]], 'numeric') &
             sum(apply(table(data[[i]], data[[event]]), 2, sum) == 0) !=0){
       errorvar = c(errorvar, i)
     }

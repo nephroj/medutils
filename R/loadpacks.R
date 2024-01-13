@@ -15,7 +15,7 @@ loadpacks = function(pkg, ...) {
     if(!i %in% rownames(installed.packages())){
       install.packages(i)
     }
-    suppressWarnings(suppressMessages(require(i, character.only=T, quietly=T)))
+    suppressWarnings(suppressMessages(requireNamespace(i, character.only=T, quietly=T)))
   }
 }
 

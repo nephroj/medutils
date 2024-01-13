@@ -3,6 +3,7 @@
 #' Read CSV file with EUC-KR encoding
 #'
 #' @param file CSV file
+#' @param ... parameters of read_csv
 #' @return data.frame object
 #' @keywords read_csvk
 #' @export

@@ -25,7 +25,7 @@ varClassifier = function(dt, myVars, len.max = 5, print.result=T, p_norm=0.05){
     if(!i %in% colnames_dt){
       NAVar = c(NAVar, i)
     }
-    else if(class(dt[[i]])=="numeric" | class(dt[[i]])=="integer"){
+    else if (inherits(dt[[i]], "numeric")){
       if (Inf %in% dt[[i]] | -Inf %in% dt[[i]]){
         inapp_inf = c(inapp_inf, i)
       }
@@ -39,7 +39,7 @@ varClassifier = function(dt, myVars, len.max = 5, print.result=T, p_norm=0.05){
         }
       }
     }
-    else if(class(dt[[i]])=="factor" |
+    else if(inherits(dt[[i]], "factor") |
             (length(unique(dt[[i]])) <= len.max &
              length(unique(dt[[i]])) >= 2)){
       facVar = c(facVar, i)

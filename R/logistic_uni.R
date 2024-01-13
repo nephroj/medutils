@@ -26,7 +26,7 @@ logistic_uni = function(data, outcome, varlist, round=3, print.result=T, p.cut=0
     )) %>%
       rename(var=1, OR=2, LCI=3, UCI=4, p.value=5) %>%
       filter(row_number() != 1)
-    if (result$p.value < 0.05) {
+    if (sum(result$p.value < 0.05) >= 1) {
       sigvar = c(sigvar, i)
     }
     cont_dt = rbind(cont_dt, result)

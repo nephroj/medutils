@@ -7,6 +7,8 @@
 #' @param age age
 #' @param factor_male word refered to male
 #' @param factor_female word refered to female
+#' @param black black race or not
+#' @param version CKD-EPI version (2009 or 2021)
 #' @return integer value
 #' @keywords ckd_epi
 #' @export

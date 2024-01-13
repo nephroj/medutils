@@ -4,7 +4,7 @@
 \alias{ckd_epi}
 \title{Calculate CKD-EPI eGFR}
 \usage{
-ckd_epi(Cr, sex, age, factor_male, factor_female)
+ckd_epi(Cr, sex, age, factor_male, factor_female, black = F, version = 2021)
 }
 \arguments{
 \item{Cr}{serum creatine value}
@@ -16,6 +16,10 @@ ckd_epi(Cr, sex, age, factor_male, factor_female)
 \item{factor_male}{word refered to male}
 
 \item{factor_female}{word refered to female}
+
+\item{black}{black race or not}
+
+\item{version}{CKD-EPI version (2009 or 2021)}
 }
 \value{
 integer value

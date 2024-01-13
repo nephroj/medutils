@@ -17,7 +17,7 @@
 #'
 ggroc <- function(roc, showAUC = TRUE, interval = 0.2, breaks = seq(0, 1, interval),
                   round=2, show.num=3, print.result=F, print.num=5, font.size=3.5){
-  if(class(roc) != "roc")
+  if (!inherits(roc, "roc"))
     simpleError("Please provide roc object from pROC package")
   plotx <- rev(roc$specificities)
   ploty <- rev(roc$sensitivities)
@@ -75,13 +75,13 @@ ggroc <- function(roc, showAUC = TRUE, interval = 0.2, breaks = seq(0, 1, interv
 #'
 ggrocs <- function(roclist, showAUC = TRUE, interval = 0.2, breaks = seq(0, 1, interval),
                    labels = NULL){
-  if(class(roclist) != "roc" & class(roclist) != "list"){
+  if (!inherits(roclist, "roc") & !inherits(roclist, "list")){
     simpleError("Please provide roc object from pROC package or list of roc objects")
   }
   dat = data.frame()
   aucvec = c()
   for(i in 1:length(roclist)){
-    if(class(roclist[[i]]) != "roc"){
+    if(!inherits(roclist[[i]], "roc")){
       simpleError("Please provide roc object from pROC package")
     }
     dat1 = data.frame(key = paste('Model', i), plotx = rev(roclist[[i]]$specificities), ploty = rev(roclist[[i]]$sensitivities))
